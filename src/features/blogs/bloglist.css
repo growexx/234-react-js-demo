@@ -1,0 +1,32 @@
+/* For MaterialUI Data Grid (Blog List) */
+.MuiDataGrid-root {
+  border: "none";
+  /* text-decoration: inherit; */
+}
+.MuiDataGrid-cell {
+  border-bottom: "none";
+}
+.MuiDataGrid-columnHeadersInner {
+  background-color: rgb(46, 64, 111);
+  border-bottom: "none";
+  font-size: large;
+  color: #fff;
+}
+.MuiDataGrid-virtualScroller {
+  background-color: rgb(207, 207, 209);
+}
+
+.MuiDataGrid-footerContainer {
+  border-top: "none";
+  color: #fff;
+  background-color: rgb(46, 64, 111);
+}
+.MuiDataGrid-toolbarContainer .MuiButton-text {
+  color: rgb(255, 255, 255) !important;
+  margin-bottom: 15px;
+}
+
+.MuiTablePagination-toolbar,
+.MuiSvgIcon-root {
+  color: #fff !important;
+}
